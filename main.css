@@ -1,0 +1,160 @@
+
+#myName{
+  font-size: 32px;
+}
+.topthreeparagraphs{
+  color: blue;
+}
+
+#firstfav{
+  font-size: 12px;
+  font-weight: 200;
+  color: orange;
+  text-align: center;
+}
+
+#secondfav{
+  font-size: 17px;
+  font-weight: 250;
+  color: purple;
+  text-align: center;
+}
+
+#thirdfav{
+  font-size: 20px;
+  font-weight: 300;
+  color: blue;
+  text-align: center;
+}
+
+#fourthfav{
+  font-size: 25px;
+  font-weight: 350;
+  color: red;
+  text-align: center;
+}
+
+#quotes{
+  font-weight: bold;
+  text-align: center;
+}
+
+#firstquote{
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: red;
+}
+
+#secondquote{
+  font-family: 'sans-serif';
+  font-size: 15px;
+  color: blue;
+}
+
+#thirdquote{
+  font-family: 'times new roman';
+  font-size: 17px;
+  color: orange;
+}
+
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://ae01.alicdn.com/kf/HTB1PzL_IxGYBuNjy0Fnq6x5lpXaA/DIY-frame-New-York-city-View-Night-Light-Landscape-Home-Decor-posters-art-silk-Fabric-Poster.jpg_640x640.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
